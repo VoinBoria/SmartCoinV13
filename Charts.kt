@@ -65,7 +65,7 @@ fun IncomeExpenseChart(
     BoxWithConstraints {
         val screenWidth = maxWidth
         val isSmallScreen = screenWidth < 360.dp
-        val chartSize = if (isSmallScreen) 95.dp else 180.dp
+        val chartSize = if (isSmallScreen) 100.dp else 180.dp
         val strokeWidth = if (isSmallScreen) 16f else 50f
         val padding = if (isSmallScreen) 8.dp else 16.dp
 
